@@ -34,9 +34,6 @@ TARGET_QCOM_AUDIO_VARIANT := caf
 TARGET_QCOM_DISPLAY_VARIANT := caf
 BOARD_USES_LEGACY_ALSA_AUDIO := true
 
-# Use CM PowerHAL by default
-TARGET_POWERHAL_VARIANT := cm
-
 # Graphics
 USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
@@ -47,8 +44,6 @@ BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charg
 BOARD_BATTERY_DEVICE_NAME := "battery"
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
-
-BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
