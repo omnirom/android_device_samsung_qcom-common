@@ -47,3 +47,7 @@ BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
+
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
+COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
