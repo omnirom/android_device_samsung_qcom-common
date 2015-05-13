@@ -28,7 +28,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     persist.hwc.mdpcomp.enable=true \
     debug.mdpcomp.logs=0 \
-    ro.telephony.ril_class=SamsungQualcommRIL \
     ro.telephony.call_ring.multiple=0
 
 # Omx
